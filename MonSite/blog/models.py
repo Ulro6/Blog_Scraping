@@ -15,7 +15,7 @@ class Post(models.Model):
     
 
     image = models.ImageField(upload_to='image',null=True, blank=True) 
-    legende = models.CharField(max_length=200)
+    legende = models.CharField(max_length=200,null=True, blank=True)
 
 
 
