@@ -80,3 +80,13 @@ h4 {
     background-color: #C25100;
 }
 
+
+
+img, figcaption{
+    width: 80%;
+}
+
+figcaption {
+    text-align: center;
+    font-weight: bold;
+}
